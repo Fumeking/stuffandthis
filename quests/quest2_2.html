@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #2</h1>
+
+	<h3>It is in the afternoon and the town seemed lively, you head up town to see more of the area and you stumble upon an elderly woman, dark skinned and has silver hair. “Good afternoon young one” she greets’ and you greet her as well. “I see you’re new, I am the one in charge of this town and I welcome you” she notices the clothes you are wearing “Ah I see you’re an adventurer, and a novice, I have behind me are the famous leaves of alima, purple leaves that help in healing, I’m willing to offer you some but you have to answer this simple riddle  “At night they come without being called, by day they disappear without being noticed, what are they?”</h3>
+
+	<div class="img"><img src="../img/Quest2_2.jpg"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="CorrectAns()">A. Stars</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. Air</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. Cats</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Apples</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer: A! Well done! Stars are tricky things, beautiful and yet you can only see them in the dark where they shine the brightest, anyway here is your reward to help you on your journey “She offers you the leaves and you continue on town.")) document.location = 'quest2_3.html';
+}
+</script>
+
+</html>

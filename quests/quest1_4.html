@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #4</h1>
+
+	<h3>After an entire day of walking you reach a small town, as you walk in an old woman calls for you, she tells you of a special reward if you answer this simple riddle "If i have 5 gold and give you me another 2 and i buy a bread worth of 4 gold with gold total of what you've given me, how many gold will i have left?"</h3>
+
+	<div class="img"><img src="../img/Quest1_4.jpg" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="alert('Incorrect! please choose again.')">A. 6</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. 4</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. 2</button>
+		<button class="d" type="button" onclick="CorrectAns()">D. 3</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer is: D! For answering the riddle correctly she gives you 30 gold as reward!")) document.location = 'quest1_5.html';
+}
+</script>
+
+</html>

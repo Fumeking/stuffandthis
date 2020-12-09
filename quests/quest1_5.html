@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #5</h1>
+
+	<h3>Almost late in the evening, you and your companion look for a place to stay for the night, you find an in, the owner is kind enough to let you keep your friend with you but asks for an extra charge, the owner says "I usually just charge 8 gold for each person but since you have a pet, i'll add an extra 4 gold" you check your pouch for how much gold you have and see you have 40, how much will you have to get to pay for an entire nights stay?</h3>
+
+	<div class="img"><img src="../img/Quest1_5.jpg" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="alert('Incorrect! please choose again.')">A. 38 Gold</button>
+		<button class="b" type="button" onclick="CorrectAns()">B. 12 Gold</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. 25 Gold</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. 31 Gold</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct answer is: B! you hand over 12 gold and you with your companion head to your room for a full nights rest.")) document.location = 'congrats_1.html';
+}
+</script>
+
+</html>

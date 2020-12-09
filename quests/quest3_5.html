@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #5</h1>
+
+	<h3>A sense of urgency in the air, it is in the middle of the day and the view shows you with a dragon, a battle seems to be happening between you and the dragon and yet it doesn’t seem intent in harming you, with your knowledge of dragon you try to reason with it and ask why it is angry, the dragon replies “Your people bothered me first! I only went in this direction because I felt a familiar presence!” as you listen you realize that you have also felt a familiar presence, the dragons presence, in this current situation you can beat the dragon, you will be celebrated by the people but you can reason with the dragon and avoid even more conflict, what will you do?
+	</h3>
+
+	<div class="img"><img src="../img/Quest3_5.jpg" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="alert('Incorrect! please choose again.')">A. Fight the dragon</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. Feed the dragon</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="CorrectAns()">C. Reason with the dragon</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Flee from the dragon</button>
+	</div>
+	</center>
+
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer: C! You start explaining to the dragon what they felt and say you have met other dragons that gave you the gift “I see, so my little brothers gave you a gift” you are surprised to find out that this dragon infront of you is the eldest of actually four sibling “Very well then, I have no reason to stay any longer, I may cause even more panic, thank you adventurer for not resorting into any further violence” the dragon takes off and you’re left standing, with a satisfied smile on your face.")) document.location = 'congrats_3.html';
+}
+</script>
+
+</html>

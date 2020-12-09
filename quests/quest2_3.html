@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #3</h1>
+
+	<h3>You walk inside a tavern and take a sit in front of the keeper, not many people are in and there’s a man asleep on one of the tables, “Greetings, I’m serving todays’ special but to get it you have to answer this little question of mine, ready? Let’s go” he readies “ Say I have 4 bottles of potion, then I’v made double of those potions just now, how many will I have?” He stares at you with a blank look waiting for your answer.</h3>
+
+	<div class="img"><img src="../img/Quest2_3.png" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="alert('Incorrect! please choose again.')">A. 6</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. 2</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. 9</button>
+		<button class="d" type="button" onclick="CorrectAns()">D. 8</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer: D! Congrats lad! Here is my special bottle of purple potion, it’ll keep you energetic for an entire day! ")) document.location = 'quest2_4.html';
+}
+</script>
+
+</html>

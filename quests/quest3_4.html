@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #4</h1>
+
+	<h3>You sleep soundly at your bed and a dream starts to stir in your mind, you’re in a forest in the den of the nigh, you hear a voice call out to you “Over here young one” you look and see a majestic creature staring at you “You are not afraid? I am glad” it says “I am a dream walker, my domain is this realm you have found yourself in and I am glad for you are not a judgmental soul but tell me, if you were ever caught in a situation to leave a friend behind or stay with them, what will you do?”  
+
+	</h3>
+
+	<div class="img"><img src="../img/Quest3_4.jpg" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="CorrectAns()">A. Make them</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. Make a joke</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. Leave them</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Pet the creature</button>
+	</div>
+	</center>
+
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer: A! You are indeed a kind soul, always lend a helping hand to your friends, sometimes just being there is enough, remember this for it will help you in the future. ")) document.location = 'quest3_5.html';
+}
+</script>
+
+</html>

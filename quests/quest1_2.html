@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #2</h1>
+
+	<h3>As you walk along the road continuing on your adventure, you encounter a dog that seems to be hurt, as you approach the dog what will you do? </h3>
+
+	<div class="img"><img src="../img/Quest1_2.jpg" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="CorrectAns()">A. Help the dog</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. Pet the Dog</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. Carry the Dog</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Leave the Dog.</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! You've gained the dog's trust after helping him and will now accompany you. Press the OK button to proceed to the next quest!")) document.location = 'quest1_3.html';
+}
+</script>
+
+</html>

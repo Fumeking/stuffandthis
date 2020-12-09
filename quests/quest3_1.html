@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #1</h1>
+
+	<h3>After a long walk inside a dungeon you finally stumble upon a treasure, there’s enough to feed an entire town, but you have that golden armor and good leather to buy so you can finally look strong but there are also the people who are hungry back in town that need help, what will you do? </h3>
+
+	<div class="img"><img src="../img/Quest3_1.jpg" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="CorrectAns()" style="font-size:15px;">A. Give the treasure to the towns folk that need it</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')" style="font-size:15px;" >B. Keep the treasure for yourself</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. Leave the treasure</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Hide the treasure for later</button>
+	</div>
+	</center>
+
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer: A! You should always give to those in need, especially when you’re doing well off on your own! It does not take much to help people and money is always replaceable!")) document.location = 'quest3_2.html';
+}
+</script>
+
+</html>

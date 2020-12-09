@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #1</h1>
+
+	<h3>Early in the morning you set out on the forest near town, as you keep going deeper you notice that you’ve lost your way, you don’t recognize the area and you don’t know the direction you even came from. You hear a voice call out to you “Over here” and as you turn you notice a masked man sitting by the tree.
+	<br><br>“Lost are we?” says the man “you’ve stumbled on the resting place of my friends”
+	<br><br>As you look around you notice odd shaped stones. “Well you seem to be in a hurry so I’ll help you but in one condition, answer this simple riddle of mine” you nod, “very well then” 
+	<br><br>“If you don’t keep me, I will break, what am I?” 
+	</h3>
+
+	<div class="img"><img src="../img/Quest2_1.jpg"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="alert('Incorrect! please choose again.')">A. Ice</button>
+		<button class="b" type="button" onclick="CorrectAns()">B. Promise</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. Heart</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Glass</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer: B! “Remember to keep the promises you make, people often time hold on to this promises to look forward to, Iv broken a lot of promises myself and now I have nothing but these stones around me”. You hear a bit of satisfied laugh, “Head right and keep going forward, that should send you back to town” he waves farewell to you")) document.location = 'quest2_2.html';
+}
+</script>
+
+</html>

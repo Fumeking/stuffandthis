@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #3</h1>
+
+	<h3>Late in the afternoon, you and your new companion are walking, a man walks by in seems to be hungry, he stops by you asking for food, what do you do?</h3>
+
+	<div class="img"><img src="../img/Quest1_3.png" height="375px" width="750px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="alert('Incorrect! please choose again.')">A. Tell him you don't have any</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. Let the dog chase him</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="CorrectAns()">C. Give the man food</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Ignore him</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! You've showed kindess to the man, he thanks you and goes back on his journey.")) document.location = 'quest1_4.html';
+}
+</script>
+
+</html>

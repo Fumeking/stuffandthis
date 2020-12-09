@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #1</h1>
+
+	<h3>As the sun rises on a new day, you prepare to set off on your journey, you prepare your inventory with items that you will need, you have spare clothes and food, all you need now is: </h3>
+
+	<div class="img"><img src="../img/Quest1_1.gif"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="CorrectAns()">A. Weapon</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. Comic</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. Blanket</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Pillow</button>
+	</div>
+	</center>
+
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Every adventurer needs a weapon or a proper tool to protect themselves or others when the time comes! Press the OK button to proceed to the next quest!")) document.location = 'quest1_2.html';
+}
+</script>
+
+</html>

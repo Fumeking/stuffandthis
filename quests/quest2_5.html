@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/quest.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="main">
+
+	<h1>Quest #5</h1>
+
+	<h3>By the church a crowd gathers, within the center of the crowd seems to be a sword stuck on an anvil on top of a rock of all things, the sight is quite odd but people are captivated nonetheless, seeing a sword glowing with such radiance, people attempt it but seems to give up rather quick stating that lifting the sword seemed to be an impossible task “It’s no use, it will not move, I wonder there’ll be anyone who will be able to pick up this sword” you watching the event transpire think of lifting the blade yourself, you take your turn and try to lift the blade, it really is stuck but will you keep trying or will you give up as easily as all the others have? </h3>
+
+	<div class="img"><img src="../img/Quest2_5.gif" height="550px" width="600px"></div>
+	<br>
+	<center>
+	<div class="ans1">
+		<button class="a" type="button" onclick="CorrectAns()" style="font-size:15px">A. Try harder to pick the sword up</button>
+		<button class="b" type="button" onclick="alert('Incorrect! please choose again.')">B. Leave it</button>
+	</div>
+	<br>
+	<div class="ans2">
+		<button class="c" type="button" onclick="alert('Incorrect! please choose again.')">C. Kick it</button>
+		<button class="d" type="button" onclick="alert('Incorrect! please choose again.')">D. Tell a joke</button>
+	</div>
+	</center>
+</div>
+</body>
+
+<script>
+function CorrectAns() {
+if(!alert("GOOD JOB! Correct Answer: A! as you give it your all to pick up the sword it starts glowing stronger and starts loosening, SUCCESS! With hard work and never giving up success will eventually be achieved!")) document.location = 'congrats_2.html';
+}
+</script>
+
+</html>
